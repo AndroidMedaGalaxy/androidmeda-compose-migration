@@ -16,8 +16,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "androidmeda-compose-migration"
 
+include(":core:data")
+include(":core:design")
 include(":app-legacy")
 include(":app-hybrid")
 include(":app-compose")
-include(":core:data")
-include(":core:design")
